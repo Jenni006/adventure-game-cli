@@ -1,0 +1,239 @@
+{
+  "title": "The Mystery of Ravenmoor Manor",
+  "description": "A thrilling adventure in an abandoned fantasy manor filled with secrets and magic",
+  "author": "Adventure Game CLI",
+  "version": "1.0.0",
+  "setting": "Ravenmoor Manor - An ancient estate shrouded in mystery",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Arrival at the Manor",
+      "description": "You arrive at the towering Ravenmoor Manor on a stormy evening. The iron gates creak open as lightning illuminates the gothic architecture.",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Enter through the grand front door",
+          "nextChapter": 2,
+          "consequence": "brave"
+        },
+        {
+          "id": 2,
+          "text": "Search for a side entrance",
+          "nextChapter": 3,
+          "consequence": "cautious"
+        },
+        {
+          "id": 3,
+          "text": "Investigate the gardens first",
+          "nextChapter": 4,
+          "consequence": "curious"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Grand Foyer",
+      "description": "You push through the heavy wooden doors into a vast foyer. Moonlight streams through tall windows, illuminating portraits of nobles and a grand staircase leading upward. Dust particles dance in the air.",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Climb the grand staircase",
+          "nextChapter": 5,
+          "consequence": "bold"
+        },
+        {
+          "id": 2,
+          "text": "Explore the ground floor corridors",
+          "nextChapter": 6,
+          "consequence": "methodical"
+        },
+        {
+          "id": 3,
+          "text": "Light torches from the fireplace",
+          "nextChapter": 7,
+          "consequence": "practical"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Side Door",
+      "description": "You find an ornate side door concealed by overgrown ivy. It's slightly ajar, revealing a soft blue glow from within.",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Enter the glowing chamber",
+          "nextChapter": 8,
+          "consequence": "brave"
+        },
+        {
+          "id": 2,
+          "text": "Find another way around",
+          "nextChapter": 2,
+          "consequence": "cautious"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Overgrown Gardens",
+      "description": "Ancient stone paths wind through the manor's neglected gardens. Statues of forgotten guardians stand sentinel, and you notice a small stone gazebo in the distance.",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Examine the statues",
+          "nextChapter": 9,
+          "consequence": "observant"
+        },
+        {
+          "id": 2,
+          "text": "Head to the gazebo",
+          "nextChapter": 10,
+          "consequence": "curious"
+        },
+        {
+          "id": 3,
+          "text": "Return to enter the manor",
+          "nextChapter": 2,
+          "consequence": "practical"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Upper Landing",
+      "description": "At the top of the staircase, a long corridor stretches before you. Doors line both sides, and at the far end, you see a faint magical shimmer.",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Follow the magical shimmer",
+          "nextChapter": 11,
+          "consequence": "bold"
+        },
+        {
+          "id": 2,
+          "text": "Open the nearest door on the left",
+          "nextChapter": 12,
+          "consequence": "methodical"
+        },
+        {
+          "id": 3,
+          "text": "Open the nearest door on the right",
+          "nextChapter": 13,
+          "consequence": "reckless"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Library",
+      "description": "You discover a grand library filled with ancient tomes and scrolls. A dusty desk holds an open journal with fresh ink marks - someone has been here recently!",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Read the journal carefully",
+          "nextChapter": 14,
+          "consequence": "inquisitive"
+        },
+        {
+          "id": 2,
+          "text": "Search the bookshelves for clues",
+          "nextChapter": 15,
+          "consequence": "thorough"
+        },
+        {
+          "id": 3,
+          "text": "Leave immediately - something feels wrong",
+          "nextChapter": 16,
+          "consequence": "cautious"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Light Discovered",
+      "description": "As you light the torches, the foyer illuminates magnificently. You now see intricate murals on the ceiling depicting an ancient magical ritual. A hidden door becomes visible in the shadows.",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Open the hidden door",
+          "nextChapter": 17,
+          "consequence": "adventurous"
+        },
+        {
+          "id": 2,
+          "text": "Study the murals more closely",
+          "nextChapter": 18,
+          "consequence": "scholarly"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "The Magical Chamber",
+      "description": "You step into a chamber filled with floating blue orbs of light. In the center stands an ancient altar with a crystalline object pulsing with energy.",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Take the crystal",
+          "nextChapter": 19,
+          "consequence": "bold"
+        },
+        {
+          "id": 2,
+          "text": "Study the altar without touching anything",
+          "nextChapter": 20,
+          "consequence": "wise"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "The Spell Chamber",
+      "description": "You reach the shimmer and discover a chamber where reality seems to bend. You find the source - a spell book open to a powerful incantation, guarded by ethereal magic.",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Close the spell book",
+          "nextChapter": 21,
+          "consequence": "heroic"
+        },
+        {
+          "id": 2,
+          "text": "Read the incantation",
+          "nextChapter": 22,
+          "consequence": "reckless"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "The Curse Breaks",
+      "description": "As you grasp the crystal, magic surges through you. The manor trembles, walls crumble, and suddenly you find yourself outside as dawn breaks. The manor begins to fade like a dream.",
+      "ending": true,
+      "outcome": "victory",
+      "message": "You have broken the ancient curse! The manor fades as you clutch the crystal - proof of your incredible adventure."
+    },
+    {
+      "id": 21,
+      "title": "The Manor Restored",
+      "description": "You slam the spell book shut with determination. The magical energy dissipates, and the manor stabilizes. As morning light floods the corridors, the curse is lifted.",
+      "ending": true,
+      "outcome": "victory",
+      "message": "Through wisdom and courage, you have saved Ravenmoor Manor from eternal damnation!"
+    },
+    {
+      "id": 22,
+      "title": "Transformation",
+      "description": "The incantation flows from your lips, and magic consumes you. Your form changes, merging with the manor's ancient magic.",
+      "ending": true,
+      "outcome": "transformed",
+      "message": "You have become one with the manor, eternally guarding its secrets as both keeper and ghost."
+    }
+  ],
+  "attributes": {
+    "courage": 0,
+    "wisdom": 0,
+    "curiosity": 0
+  }
+}
